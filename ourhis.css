@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: url(hispic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav:hover{
+    background-color:rgb(72, 235, 173);
+}
+nav{
+    margin: 10px;
+    padding: auto;
+    border: 3px solid rgb(2, 119, 111);
+    border-radius: 25px;
+    text-decoration: none;
+    
+}
+nav ul{
+    padding: 2px;
+    display:flex;
+    color: rgb(246, 103, 26);
+}
+nav ul li{
+ 
+    padding: 15px;
+    list-style: none;
+}
+a:hover{
+    color: rgb(236, 243, 17);
+}
+nav ul li a{
+
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    color: rgb(3, 55, 107);
+}
+.his{
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(222, 164, 3, 0.94);
+}
+.pil:hover{
+    border: 2px solid rgb(11, 9, 9);
+    border-radius: 75px;
+    background-color: rgb(5, 101, 114);
+    color: rgb(243, 99, 99);
+    margin: 35px;
+    cursor: pointer;
+}
+.pil{
+ color: rgb(53, 87, 201);
+    font-weight: bold;
+    word-spacing: 4px;
+    font-family: monospace;
+    font-size: 36px;
+    text-align: justify;
+    padding: 35px;
+}
+.il{
+    margin: 35px;
+    padding: 55px;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(14, 98, 87);
+}
